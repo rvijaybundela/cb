@@ -1,0 +1,35 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.66.0
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  lottie: ^2.6.0
+  http: ^1.1.0  # ✅ UPGRADED to match google_fonts requirement
+  webview_flutter: ^4.0.7
+  webview_flutter_android: ^3.11.2
+  intl: ^0.18.1
+  provider: ^6.1.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/images/carbon.jpg
+
